@@ -11,10 +11,6 @@
 
     <title>Random Quote Machine</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-
     <link href="css/style.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
@@ -22,18 +18,25 @@
 </head>
 
 
-<body style="background-color: #99ff66;">
+<body>
 
-	<section>
-	<div class="quote-section">
+<div id="quoteBox">
+
+	<div id="quote" class="quoteSection">
 		<iframe src="http://www.google.com/" allowtransparency="true" style="background: #FFFFFF; width=500 height="500" frameborder="1" align="middle"></iframe>	
 	</div>
 
+	<div id="quoteText" class="quoteText"></div>
 
+	<div id="quoteButton" class="quoteButton"><button id="quoteButton" type="button">New quote!</button></div>
 	
-	<div class="quote-button">
-	<button type="button">New quote!</button>
-	</div>
-	</section>
+	<div id="author" class="authorName"></div>
+
+	<div id="socialButton" class="socialButton"></div>
+</div>
 
 </body>
+
+ <script src="script.js"></script>
+
+</html>
